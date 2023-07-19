@@ -1,0 +1,22 @@
+.section3{
+    h1{
+        margin:5% 8%;
+    }
+    height:75vh;
+    .products-container{
+        display: flex;
+        justify-content: space-evenly;
+        .product{
+            img{ 
+                border:#1c4954 1px solid;
+                padding:14px;
+                border-radius: 35px;
+                width:220px;
+                margin-bottom: 20px;
+            }
+            h3{text-align: center;
+                font-weight: 600;
+            }
+        }
+    }
+}

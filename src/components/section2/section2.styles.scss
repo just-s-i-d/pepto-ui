@@ -1,0 +1,72 @@
+.section2 {
+    height: 100vh;
+    position:relative;
+
+    .background-img {
+        position: absolute;
+        z-index: -1;
+        margin-top: 6px;
+        width: 100%;
+        height: 98%;
+    }
+
+    .aboutus-container {
+        width: 40%;
+        position: absolute;
+        top: 50%;
+        left:7%;
+        transform: translateY(-50%);
+        h4 {
+            font-weight: 500;
+            letter-spacing: 3px;
+            font-size: 18px;
+        }
+
+        hr {
+            width: 10%;
+            border-color: #1c4954;
+        }
+
+        h2 {
+            margin-top: 50px;
+            font-weight: 400;
+            font-size: 32.5px;
+            line-height: 10px;
+        }
+
+        .brand {
+            font-size: 23px;
+
+            .line-through {
+                position: relative;
+                width: 200px;
+                border: #efd0a1 5px solid;
+                transform: translateY(-200%);
+                z-index: -1;
+            }
+        }
+
+        .highlight {
+
+            font-size: 50px;
+            font-weight: 700;
+            color: #f39e18;
+        }
+p{
+    width:80%;
+}
+        .features-container {
+            margin-top: 5%;
+            position:relative;
+            right:7%;
+            display: grid;
+            grid-template-columns: repeat(3, 160px);
+            row-gap: 50px;
+            text-align: center;
+            img {
+                width: 100px;
+                margin: 0 25%;
+            }
+        }
+    }
+}
