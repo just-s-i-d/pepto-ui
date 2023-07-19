@@ -60,17 +60,21 @@
     }
 
     @media (max-width: 768px) {
+        margin-left:0;
+        margin-right: 0;
         width: 100%;
         .left-container {
             .logo {
+                margin: 0;
                 width: 100px;
             }
         }
         .center-container {
+            font-size: 14px;
             margin-right: 20px;
-            width: inherit;
+            width: 100%;
             display: flex;
-            column-gap: 50px;
+            column-gap: 20px;
         }
     }
 }
