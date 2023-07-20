@@ -31,7 +31,7 @@ const Section6 = () => {
             <h5>SOME FACTS</h5>
             <hr />
             <h1>We are Here for You</h1>
-            <span>Great success rate, recovering millions every year since 1992. If you or someone you love has <br/> suffered the consequences of another person’s negligence.</span>
+            <span>Great success rate, recovering millions every year since 1992. If you or someone you love has suffered the consequences of another person’s negligence.</span>
             <div className="achievements-container">
                 {
                     achievements.map(item=><Achievement item={item}/>)

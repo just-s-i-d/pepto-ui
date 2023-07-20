@@ -37,3 +37,36 @@
     }
 
 }
+@media (max-width:1300px) {
+    .section4 {
+        height: 55vh;
+        padding: 5px 0;
+        width: 100%;
+        .section4-background {
+            height: 90%;
+        }
+    
+        .types-container {
+            .type-container {
+                margin: 15px 8px;
+                column-gap: 15px;
+                img {
+                    border-radius: 15px;
+                    object-fit: contain;
+                    padding: 7px;
+                    border: 1px #1c4954 solid;
+                    width: 50px;
+                    height: 50px;
+                }
+                h2{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                p{font-size: 10px;
+                    width:95%;
+                }
+            }
+        }
+    
+    }
+}

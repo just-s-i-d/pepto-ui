@@ -3,8 +3,10 @@
     height: 45vh;
     background-color: #10393f;
     font-size: 11px;
+    width: 100%;
 
     .content-box {
+        box-sizing: border-box;
         padding: 85px 250px 0 250px;
         display: flex;
         justify-content: space-between;
@@ -34,7 +36,8 @@
     .categories-container {
 
         display: grid;
-        grid-template-columns: repeat(3, 220px);
+        grid-template-columns: repeat(3, 35%);
+        // grid-template-columns: repeat(3, 220px);
 
         .category-container {
 
@@ -49,6 +52,67 @@
                 font-weight: 400;
                 color: white;
                 font-size: 14px;
+            }
+        }
+    }
+}
+
+@media (max-width:1300px) {
+    .footer {
+        color: white;
+        height: 20vh;
+        background-color: #10393f;
+        font-size: 10px;
+width: 100%;
+        .content-box {
+            width: 90%;
+            padding: 30px 0px 0 10px;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 20% 80%;
+            column-gap: 25px;
+        }
+
+        .block1 {
+            width: 80px;
+
+            img {
+                width: 80px;
+            }
+
+            p {
+                font-size: 6px;
+                color: white;
+                line-height: 10px;
+            }
+
+            i {
+                margin-top: 5px;
+                letter-spacing: 8px;
+                font-size: 10px;
+                color: white;
+            }
+        }
+
+        .categories-container {
+
+            display: grid;
+            grid-template-columns: 80px 90px 100px;
+
+            .category-container {
+
+                h2 {
+                    color: #628992;
+                    font-size: 11px;
+                    font-weight: 400;
+                    margin-bottom: 5px;
+                }
+
+                div {
+                    font-weight: 400;
+                    font-size: 7px;
+
+                }
             }
         }
     }
