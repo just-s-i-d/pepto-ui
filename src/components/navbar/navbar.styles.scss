@@ -68,7 +68,7 @@
         position: absolute;
         left: 0;
         top: 10vh;
-        width: 100%;
+        width: 90%;
         height: 15vh;
         background-color: #1c4954;
 
@@ -82,24 +82,13 @@
 
 }
 
+
+
 @media (max-width:1300px) {
     .navbar-container {
+        padding: 2%;
         width: 100%;
         box-sizing: border-box;
-
-        .center-container {
-            box-sizing: border-box;
-            width: 100%;
-            column-gap: 20px;
-        }
-    }
-
-}
-
-@media (max-width:950px) {
-    .navbar-container {
-        padding: 2%;
-
         .left-container {
             width: 120px;
 
@@ -124,7 +113,6 @@
 
             .menu-icon {
                 display: inline-block;
-
             }
         }
 

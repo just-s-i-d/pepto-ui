@@ -66,10 +66,9 @@
                 width:100%;
                 h3{
                     font-size: 14px;
-                    font-weight: 500;
+                   
                 }
                 span{
-                    color:black;
                     font-size: 12px;
                 }
                 img{
@@ -82,21 +81,16 @@
             }
         }
         .header{
-            display:flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+           
             h1{
                 font-size: 22px;
-                font-weight: 600;
+               
                 margin-bottom: 10px;
             }
             h3{ 
                 text-align: center;
                 line-height: 20px;
-                color:#1C4954;
-                font-size: 12px;
-                font-weight: 400;
+                font-size: 12px; 
                 margin-bottom: 20px;
             }
             
